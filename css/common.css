@@ -6,3 +6,13 @@ body.portfolio .thumbnail img
 {
 	max-height: 200px;
 }
+
+.my_email{
+display: inline-block;
+width: 146px;
+height: 15px;
+font-size: 0px;
+vertical-align: middle;
+color: transparent;
+background-image: url(../img/email.gif);
+}
