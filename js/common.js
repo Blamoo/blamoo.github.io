@@ -3,6 +3,6 @@ $(document).ready(function(){
 		var alt = this.alt;
 		var src = this.src;
 		
-		return '<a href="' + src + '" title="' + alt + '">' + $(this).text() + '</a>';
+		return '<a target="blamoo_github" href="' + src + '" title="' + alt + '">' + $(this).text() + '</a>';
 	});
 });
