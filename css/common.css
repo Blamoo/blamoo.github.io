@@ -4,7 +4,14 @@ resize: vertical;
 
 body.portfolio .thumbnail img
 {
-	max-height: 200px;
+max-height: 200px;
+}
+
+body.social{
+background-color: #333;
+}
+body.social .jumbotron a:hover{
+text-decoration: none;
 }
 
 .my_email{
@@ -16,3 +23,4 @@ vertical-align: middle;
 color: transparent;
 background-image: url(../img/email.gif);
 }
+
