@@ -1,16 +1,14 @@
 ---
+title: Contato
 layout: default
 ---
-<div class="page-header">
-    <h1>Contato</h1>
-</div>
 
 <div class="row">
     <div class="col-md-6">
         <form action="https://getsimpleform.com/messages?form_api_token=4726bff1bcc8fd9c0563770aa3d69e1a" method="post">
             <fieldset class="well">
 
-                <input type="hidden" name="redirect_to" value="{{ site.url | append: site.baseurl }}contato_obrigado.html" />
+                <input type="hidden" name="redirect_to" value="{{ site.url | append: site.url }}contato_obrigado.html" />
 
                 <div class="form-group">
                     <label>Email</label>

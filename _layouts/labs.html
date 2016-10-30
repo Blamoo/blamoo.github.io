@@ -1,0 +1,50 @@
+{% include dtd.html %}
+<html lang="pt">
+<head>
+	{% include head.html %}
+</head>
+
+<body class="index {{ page.bodyClass }}">
+	{% include header.html %}
+
+	{% if page.title == null %}
+	{% else %}
+	<div class="page-header">
+		<h1>{{page.title}}</h1>
+	</div>
+	{% endif %}
+
+	<ol class="breadcrumb">
+		<li><a href="{{site.url}}/labs.html">Labs</a></li>
+		<li class="active">{{page.title}}</li>
+	</ol>
+
+	{{ content }}
+
+	<div class="row">
+		<div class="col-md-12">
+			{% if site.github.repository_url != null %}
+			<h2><a target="_blank" href="{{site.github.repository_url}}/tree/master{{page.url}}">Arquivos</a></h2>
+			{% else %}
+			<h2>Arquivos</h2>
+			{% endif %}
+
+			<div class="well">
+				{% assign filter = "item.path contains '" | append:page.url | append:"'" %}
+				{% assign files = site.static_files | where_exp:"item",filter %}
+				<ul>
+					{% for file in files %}
+					{% if site.github.repository_url != null %}
+					<li><a target="_blank" href="{{site.github.repository_url}}/tree/master{{ file.path }}">{{ file.path }}</a></li>
+					{% else %}
+					<li>{{ file.path }}</li>
+					{% endif %}
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	{% include footer.html %}
+</body>
+</html>

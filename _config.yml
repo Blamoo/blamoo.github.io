@@ -1,4 +1,8 @@
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://blamoo.github.io" # the base hostname & protocol for your site
 gems:
-  - jekyll-sitemap
+    - jekyll-sitemap
+collections:
+    labs:
+        output: true
+        permalink: "/:categories/:title:output_ext"

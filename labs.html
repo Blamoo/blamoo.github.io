@@ -1,0 +1,19 @@
+---
+title: Labs
+layout: default
+---
+{% assign labs = site.html_pages | where:"type":"labs" | reverse %}
+<ol class="breadcrumb">
+	<li class="active">{{page.title}}</li>
+</ol>
+<div class="row">
+	<div class="col-md-12">
+		<div class="well">
+			<ul>
+				{% for lab in labs %}
+				<li><a href="{{ lab.url }}">{{ lab.title }}</a></li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>
