@@ -21,8 +21,8 @@ image.addEventListener('load', function (e) {
 });
 function imageLoaded() {
     loadAndFill(BLOCK_SIZE, canvas, ctx, image);
-    canvas2.width = image.width;
-    canvas2.height = image.height;
+    canvas2.width = canvas.width;
+    canvas2.height = canvas.height;
     goDiv.style.display = 'block';
 }
 go.addEventListener('click', function (e) {
