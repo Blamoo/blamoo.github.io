@@ -1,0 +1,57 @@
+---
+layout: labs
+title: 'Lab 002-ce-st - Experiência com transformada discreta de cosseno (DCT)'
+type: labs
+---
+<style type="text/css">
+	#canvas,
+	#canvas2 {
+		border: 1px dashed gray;
+		padding: 3px;
+	}
+
+	#goDiv {
+		text-align: center;
+	}
+</style>
+
+<div class="well" id="target">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="form-group">
+				<select id="images" class="form-control">
+				<option value="">(Escolha uma imagem)</option>
+				<option value="demo1.png">demo1.png (imagem por Shinonoko)</option>
+				<option value="demo2.png">demo2.png (imagem por Shinonoko)</option>
+				<option value="demo3.png">demo3.png</option>
+				<option value="demo4.png">demo4.png</option>
+			</select>
+			</div>
+		</div>
+	</div>
+
+	<div class="row" id="goDiv" style="display: none">
+		<div class="col-md-5">
+			<canvas id="canvas"></canvas>
+			<div id="imgCopy"></div>
+		</div>
+		<div class="col-md-2">
+			<div class="form-group">
+				<label for="level">Quantização</label>
+				<input id="level" type="number" value="4" min="0" max="8" class="form-control" />
+			</div>
+			<div class="form-group">
+				<button id="go" type="button" class="btn btn-default">Processar</button>
+			</div>
+			<div class="form-group">
+				<span id="result"></span>
+			</div>
+		</div>
+		<div class="col-md-5">
+			<canvas id="canvas2"></canvas>
+		</div>
+	</div>
+</div>
+
+<script src="lib.js" type="text/javascript"></script>
+<script src="index.js" type="text/javascript"></script>
