@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/blamoo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://blamoo.github.io
+  * I am blamoo (https://keybase.io/blamoo) on keybase.
+  * I have a public key with fingerprint BEC7 98F5 66F5 A584 FEBB  4C56 825F 93BB FCE7 C2A9
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101ac9b8ce4616e03aa97b2ef7c0b7706a610a0b901f723be690dfae7fd39cf82b30a",
+            "fingerprint": "bec798f566f5a584febb4c56825f93bbfce7c2a9",
+            "host": "keybase.io",
+            "key_id": "825f93bbfce7c2a9",
+            "kid": "0101ac9b8ce4616e03aa97b2ef7c0b7706a610a0b901f723be690dfae7fd39cf82b30a",
+            "uid": "ac96cdefe5548bd77c81e756d5937919",
+            "username": "blamoo"
+        },
+        "revoke": {
+            "sig_ids": [
+                "acb30ef261d0a327bba3ad461ec0412183b0a24bbb42350c1592eda49a9269ce0f"
+            ]
+        },
+        "service": {
+            "hostname": "blamoo.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1486987250,
+    "expire_in": 157680000,
+    "prev": "7d67a516f1f6bb4235170bf050428118eb99701ff6acf22a4b9c14a470dc9a43",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.62
+Comment: https://keybase.io/crypto
+
+yMJuAnicrZJdaBVHFMfvNUZMUIlIm0Z80NUX8RpmZndndm6MmqAGC0XF1q+2Xmdm
+Z5I1N3evu3uj1yB+gB99EOrHVaOIaItK/GrR+mBLaxspLY0K2pYWBR9EUAwIhlwM
+ojgb60PBR+dlmJlzfud//nOuja1IVCfnl75MFDc4IPnHz+VCYsXxY0+7DO67RSPd
+ZbTL4U1mXRlGmXbPNdIGgAAyQbkjpIUhlsBkjBKOpCICcEIAZhgCBjgFUBFkcokp
+cBWTRLkmFcpB3ATMSBnKy7XKIB94uUhjuRSEOsrGWNnMdiwlObeEjR1kK2pyroQk
+AjGqE9v8MM7Q4jgLZb3n6zt9yAzLe0v8O9ZdGMZpFBauVNK2LYe7hAgHSmJj16Ym
+oTCuWwhlkGMdMu4uyzp839iUMgLZ6bfL2NXQa9WSQyP9qYZptlQIQxcwExHOmclc
+LVMKYEEEHZMDhiyuLUGmDQS0KZIusyijCFMhgTI+12xdr9MTw/DYo//Vrm/1orYC
+f+1WPvAjX/hZ/doWRfkwHSuLivk4fL3kmf9AGe7lXP1LOqNTBqHn54w01JEi8mIy
+tBxMHYJskDLkhrwXyIwXR9gEO0CvuI7s1EjiYsJsiBVU+HULkACugA0s5EDoSE4p
+0a4rzIRCiFmcCmgxiwBXUGaZRtzaupyv2RoasVbN1O7lWFQIpLHpl6ufjUwkqxOj
+KkfE45uorqp5M9QTj45ObE01LkD9q/Jbpv2Y7D1z9rj/zf7ve35Y+v6Y0aWW+d31
+eTu1rHxz9c6Plz6ctGD82pZlA8vX1NU4xUMbLzX9s31mw0DpZsWp9InLt2sanMyL
+Z4P/Lnm5b+P6sdsOf9Jcu+hI1b7ffz32aNacgSvP73Q1Xnw8xmz+alHdF6e+y4nz
+NyZepr3N0cG+hSeeVPbVWTUNlfenjty6o7w/7Du5ueOj/nyxJXv6wO55d7trGyuG
+/qINpYVP58289vW93sELiW/bJlfNnbrnHOiBU4YOB9d/2v1gRvBhj+Ud/LO4Z9XK
+95qMHfgha6otfZDcO7hl9vQJ3Wv/7v/t7rhnA7vurB6VvVIeHJp+cujW4vIrMmtb
+GQ==
+=Xhyo
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/blamoo
+
+==================================================================
