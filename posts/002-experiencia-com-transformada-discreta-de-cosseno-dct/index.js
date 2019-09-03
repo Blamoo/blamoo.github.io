@@ -14,7 +14,6 @@ images.addEventListener('change', function (e) {
     goDiv.style.display = 'none';
     result.innerHTML = '';
     image.src = this.value;
-    //this.
 });
 image.addEventListener('load', function (e) {
     imageLoaded();

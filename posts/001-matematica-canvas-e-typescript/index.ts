@@ -59,7 +59,7 @@ function setPixel(id: ImageData, x: number, y: number, r: number, g: number, b: 
  */
 function exec() {
     let start = performance.now();
-    
+
     // Tamanho dos blocos
     const bs = 8;
 
@@ -105,6 +105,6 @@ function exec() {
     ctx.putImageData(id, 0, 0);
 
     let end = performance.now();
-    result.innerHTML = `${Math.floor(end - start)}ms`;
+    result.innerHTML = `imagem gerada em ${Math.floor(end - start)}ms`;
 
 }

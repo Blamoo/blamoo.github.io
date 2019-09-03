@@ -3,8 +3,9 @@ url: "https://blamoo.github.io" # the base hostname & protocol for your site
 gems:
     - jekyll-sitemap
 collections:
-    labs:
+    posts:
         output: true
         permalink: "/:categories/:title:output_ext"
-include: 
+include:
     - ".well-known"
+excerpt_separator: "<!-- more -->"

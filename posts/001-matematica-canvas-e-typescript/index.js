@@ -84,5 +84,5 @@ function exec() {
     }
     ctx.putImageData(id, 0, 0);
     var end = performance.now();
-    result.innerHTML = Math.floor(end - start) + "ms";
+    result.innerHTML = "imagem gerada em " + Math.floor(end - start) + "ms";
 }
