@@ -9,11 +9,9 @@ layout: default
 <div class="row">
 	<div class="col-md-12">
 		<div class="well">
-			<ul>
 				{% for post in posts %}
-				<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-				{{ post.excerpt }}
-					<li><pre>{{ post | jsonify | escape }}</pre></li>
+				<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+				<p>{{ post.description }}</p>
 				{% endfor %}
 			</ul>
 		</div>

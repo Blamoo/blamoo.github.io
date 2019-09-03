@@ -8,4 +8,3 @@ collections:
         permalink: "/:categories/:title:output_ext"
 include:
     - ".well-known"
-excerpt_separator: "<!-- more -->"
